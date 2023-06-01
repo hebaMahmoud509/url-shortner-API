@@ -1,0 +1,3 @@
+NODE_ENV = development
+PORT = # replace with port number
+MONGO_URI = # replace with the database actual string

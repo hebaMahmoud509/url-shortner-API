@@ -10,7 +10,7 @@ const shortUrlSchema = new mongoose.Schema({
     type: String,
     required: true,
     default: function() {
-      return 'http://localhost:3010/' + shortId.generate();
+      return 'http://localhost:3010/api/' + shortId.generate();
     }
   },
   clicks: {

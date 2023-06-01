@@ -3,7 +3,7 @@ const ShortUrl = require("../models/shortUrl");
 const router = express.Router();
 exports.redirect_to_link= async (req, res,next) => {
     const shortUrl = await ShortUrl.findOne({ short: req.params.short_url })
-    if (short_url == null) return res.sendStatus(404)
+    if (shortUrl == null) return res.sendStatus(404)
 
     shortUrl.clicks++
     shortUrl.save()
