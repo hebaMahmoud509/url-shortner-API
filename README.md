@@ -1,6 +1,4 @@
 # url-shortner-API
-
-create a shorter customized version of your URLs
 ## to run the project:
 ### 1- install the dependancies using:
 
@@ -11,3 +9,6 @@ npm install
 ### 3- run the following command on your terminal:
 
 nodemon server.js
+
+A simple URL shortener built with Node.js and MongoDB.
+
